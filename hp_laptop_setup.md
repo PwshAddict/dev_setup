@@ -20,8 +20,24 @@ choco install vscode -y
 ```
 
 #### Setup VScode
+Extensions:
+Remote - WSL
+Powershell
+GitLens
 
-#### Install Pwsh stuff
+Settings should be shared via my github account but adding specific ones here:
+Go here for font downloads:
+https://github.com/romkatv/powerlevel10k/blob/master/font.md
+
+Terminal: Integrated: Font Family  NOTE: this was different on other laptops I've used.  May need to play with it more.
+```
+MesloLGS NF
+```
+
+
+
+
+#### Install Pwsh stuff on Windows
 ``` powershell
 $modules = @(
     'pwsh'
@@ -30,6 +46,25 @@ $modules = @(
 foreach ($mod in $modules) {
     choco install $mod -y
 }
+```
+#### install pwsh on Linux
+https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.2
+
+``` 
+# Download the Microsoft repository GPG keys
+wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb
+
+# Register the Microsoft repository GPG keys
+sudo dpkg -i packages-microsoft-prod.deb
+
+# Update the list of products
+sudo apt-get update
+
+# Install PowerShell
+sudo apt-get install -y powershell
+
+# Start PowerShell
+pwsh
 ```
 
 ### Setup GIT

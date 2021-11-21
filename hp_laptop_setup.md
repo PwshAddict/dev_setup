@@ -35,6 +35,13 @@ foreach ($mod in $modules) {
 }
 ```
 
+### Setup GIT
+``` powershell
+
+git config --global user.email "pwshaddict@scottmiller.dev"
+git config --global user.name "Scott Miller"
+```
+
 ### setup WSL
 https://docs.microsoft.com/en-us/windows/wsl/install
 

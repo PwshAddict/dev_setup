@@ -24,11 +24,8 @@ choco install vscode -y
 #### Install Pwsh stuff
 ``` powershell
 $modules = @(
-    'poshgit'
-    ,'pwsh'
+    'pwsh'
     ,'git'
-    ,'oh-my-posh'
-
 )
 foreach ($mod in $modules) {
     choco install $mod -y

@@ -24,6 +24,7 @@ Extensions:
 Remote - WSL
 Powershell
 GitLens
+azure pipelines
 
 Settings should be shared via my github account but adding specific ones here:
 Go here for font downloads:
@@ -33,9 +34,6 @@ Terminal: Integrated: Font Family  NOTE: this was different on other laptops I'v
 ```
 MesloLGS NF
 ```
-
-
-
 
 #### Install Pwsh stuff on Windows
 ``` powershell
@@ -73,6 +71,12 @@ pwsh
 git config --global user.email "pwshaddict@scottmiller.dev"
 git config --global user.name "Scott Miller"
 ```
+### Setup SSH
+https://www.ssh.com/academy/ssh/keygen
+```
+ssh-keygen 
+```
+*_Add the SSH key to Github/DevOps as needed
 
 ### setup WSL
 https://docs.microsoft.com/en-us/windows/wsl/install

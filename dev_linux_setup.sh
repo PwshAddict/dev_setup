@@ -1,3 +1,4 @@
+
 # keep your stuff updated bojo
 sudo apt update -y && sudo apt upgrade -y
 
@@ -6,7 +7,6 @@ sudo apt install ssh
 
 # install git
 sudo apt install git
-
 
 #### install pwsh on Linux
 # https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.2
@@ -25,4 +25,10 @@ sudo apt-get update
 sudo apt-get install -y powershell
 
 # Start PowerShell
-pwsh
+pwsh -v
+
+# setup dev folders
+
+mkdir ~/sources/
+mkdir ~/sources/github
+cd ~/sources/github

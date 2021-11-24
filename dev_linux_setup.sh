@@ -29,6 +29,6 @@ pwsh -v
 
 # setup dev folders
 cd ~
-sudo mkdir /sources/
-sudo mkdir /sources/github
+mkdir /sources/
+mkdir /sources/github
 cd /sources/github

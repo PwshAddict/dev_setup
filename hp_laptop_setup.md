@@ -68,5 +68,5 @@ wsl --install
 
 Run this to setup linux 
 ```
-wget -clobber https://raw.githubusercontent.com/PwshAddict/dev_setup/main/dev_linux_setup.sh && sudo bash ./dev_linux_setup.sh
+wget -N https://raw.githubusercontent.com/PwshAddict/dev_setup/main/dev_linux_setup.sh && sudo bash ./dev_linux_setup.sh
 ```

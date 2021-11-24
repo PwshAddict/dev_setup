@@ -29,6 +29,5 @@ pwsh -v
 
 # setup dev folders
 cd ~
-mkdir sources/
-mkdir sources/github
-cd sources/github
+[ -d sources/ ] && mkdir sources/
+[ -d sources/github ] && mkdir sources/github

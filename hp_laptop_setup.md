@@ -66,7 +66,7 @@ This will install WSL2 with ubuntu (default)
 wsl --install
 ```
 
-Run this in all distros
+Run this to setup linux 
 ```
-sudo apt update && sudo apt upgrade
+wget -clobber https://raw.githubusercontent.com/PwshAddict/dev_setup/main/dev_linux_setup.sh && sudo bash ./dev_linux_setup.sh
 ```

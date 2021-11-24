@@ -28,7 +28,7 @@ sudo apt-get install -y powershell
 pwsh -v
 
 # setup dev folders
-
-sudo mkdir ~/sources/
-sudo mkdir ~/sources/github
-cd /so~urces/github
+cd ~
+sudo mkdir /sources/
+sudo mkdir /sources/github
+cd /sources/github

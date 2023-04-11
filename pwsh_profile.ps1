@@ -1,5 +1,5 @@
 
-import-module posh-git
+Import-Module posh-git
 Set-PoshPrompt -Theme pixelrobots
 
 if ($IsWindows -or [string]::IsNullOrEmpty($IsWindows)) {
@@ -10,7 +10,7 @@ if ($IsWindows -or [string]::IsNullOrEmpty($IsWindows)) {
     }
 }
 
-if ($Host.Name -match "ConsoleHOst|Visual Studio Code Host") {
+if ($Host.Name -match 'ConsoleHOst|Visual Studio Code Host') {
     Import-Module -Name PSReadline
 }
 
